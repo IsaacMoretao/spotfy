@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/Login/header.tsx"  ],
+, "src/pages/LandingPage/header.tsx"  ],
   "exclude": [
     "node_modules"
   ]

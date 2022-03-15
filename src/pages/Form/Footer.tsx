@@ -1,14 +1,13 @@
 import React from 'react';
 
-
-function LoginFooter(props) {
+function FormFot() {
+  
   return(
-
+  
     <div>
-   
       
     </div>
-    
+
   ) 
 }
-export default LoginFooter;
+export default FormFot;

@@ -1,20 +1,19 @@
-import Main from './Login/Main';
-import LogHed from './Login/header';
-import Footer from './Login/footer';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import Main from './Login/Main';
+//import LogHed from './Login/header';
+//import Footer from './Login/footer';
+
+import FormMin from './Form/Main';
+import FormHed from './Form/Heder';
+import FormFot from './Form/Footer';
 
 export default function Home() {
   return (
     <div>
-      <Router>
 
-       <LogHed></LogHed>
-       <Main></Main>
-       <Footer></Footer>
+       <FormHed></FormHed>
+       <FormMin></FormMin>
+       <FormFot></FormFot>
 
-      </Router>
-      
-      
     </div>
   )
 }

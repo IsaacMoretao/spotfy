@@ -1,61 +1,13 @@
 import React from 'react';
-import { Switch, Route} from 'react-router-dom'
 
-function Main(props) {
+
+function LoginMain(props) {
   return(
 
-      <div  style={{
-        background: '#2941ab',
-        height: '140vh',
-        
-      }}>
+    <div>
 
-     <img src="/image/pexels-andrea-piacquadio-3807536.jpg"
-      style={{
-        height: '100%',
-        width: '100%'
-        
-      }}
-       
-     />
-     <div style={{
-       
-       position: 'absolute',
-       width: '100%',
-       textAlign: 'center',
-       color: '#1ed760',
-       marginTop: '-70%'
-     }}>
-       <h1 style={{
-         fontSize:'150px'
-       }}>Escutar muda<br />
-       tudo</h1>
-
-       <p style={{
-         width: '40%',
-         marginLeft: 'auto',
-         marginRight: 'auto',
-         fontSize: '25px'
-         }}> <b>
-           Milhões de músicas e podcasts para explorar. E nem precisa de cartão de   crédito.
-           </b> 
-       </p>
-
-       <button  style={{
-           height: '50px',
-           width: '160px',
-           borderRadius: '30px',
-           background: '#1ed760',
-           cursor: 'Pointer'
-          }}><h4 style={{
-           margin: '0px',
-           color: '#2941ab'
-          }}>Baixe o spotify Free</h4>
-       </button>
-     </div>
-     
     </div>
     
   ) 
 }
-export default Main
+export default LoginMain;
