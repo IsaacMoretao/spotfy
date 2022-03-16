@@ -40,8 +40,8 @@ function Main(props) {
            Milhões de músicas e podcasts para explorar. E nem precisa de cartão de   crédito.
            </b> 
        </p>
-
-       <link href='/login/header.tsx'  style={{
+      <a href="http://localhost:3000/Form/Form">
+       <button style={{
            height: '50px',
            width: '160px',
            borderRadius: '30px',
@@ -51,7 +51,8 @@ function Main(props) {
            margin: '0px',
            color: '#2941ab'
           }}>Baixe o spotify Free</h4>
-       </link>
+       </button>
+       </a>
      </div>
      
     </div>

@@ -1,18 +1,17 @@
-//import Main from './Login/Main';
-//import LogHed from './Login/header';
-//import Footer from './Login/footer';
+//import Main from './LandingPage/Main';
+//import LogHed from './LandingPage/header';
+//import Footer from './LandingPage/footer';
 
-import FormMin from './Form/Main';
-import FormHed from './Form/Heder';
-import FormFot from './Form/Footer';
-
+import LoginHeder from './Login/Heder';
+import LoginMain from './Login/Main';
+import LoginFooter from './Login/footer';
+ 
 export default function Home() {
   return (
     <div>
-
-       <FormHed></FormHed>
-       <FormMin></FormMin>
-       <FormFot></FormFot>
+     <LoginHeder/>
+     <LoginMain/>
+     <LoginFooter/>
 
     </div>
   )
