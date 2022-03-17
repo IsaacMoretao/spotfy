@@ -234,11 +234,11 @@ function FormMin() {
         <b>Iscrever-se</b>
       </button>
       <p>
-        <h4>Já tem uma conta? <a style={{color: 'rgba(23, 211, 54, 0.863)'}} href="#">Faça loguin</a>.</h4>
+        <h4>Já tem uma conta? <a style={{color: 'rgba(23, 211, 54, 0.863)'}} href="http://localhost:3000/Inicial/Login/Login">Faça loguin</a>.</h4>
       </p>
 
       </div>
-     <img src="/image/pexels-shvets-production-7533328.jpg" alt="" 
+     <img src="/image/pexels-shvets-production-7533328.jpg"  
      style={{
        width:'100%',
        height: '200%'

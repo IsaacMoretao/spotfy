@@ -8,7 +8,8 @@ function LoginHeder(props) {
       height: '10vh',
       borderBottom: '1px solid gray'
     }}>
-       <img src="/image/SpotfyLogo.png" alt="Logo-Spotfy" style={{
+      <a href='http://localhost:3000'>
+        <img src="/image/SpotfyLogo.png" alt="Logo-Spotfy" style={{
          height: '8vh',
          display: 'flex',
          marginLeft: 'auto',
@@ -16,6 +17,8 @@ function LoginHeder(props) {
          marginTop: '1vh'
 
        }}/>
+      </a>
+       
 
     </div>
     

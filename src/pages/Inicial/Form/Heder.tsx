@@ -13,14 +13,18 @@ function FormHed() {
       width: '45%',
       color: 'white'
     }}>
-     <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="" 
-     style={{
-       display: 'flex',
-       width: '150px',
-       marginLeft: 'auto',
-       marginRight: 'auto',
-       marginTop: '10%'
-     }}/>
+      <a href="http://localhost:3000">
+        <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="" 
+      style={{
+        display: 'flex',
+        width: '150px',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: '10%'
+        }}/>
+      </a>
+     
+    
      <h1>
        Inscreva-se grátis e comece a curtir.
      </h1>

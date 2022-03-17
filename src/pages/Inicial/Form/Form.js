@@ -1,6 +1,6 @@
-import FormMin from '../Form/Main.tsx';
-import FormHed from '../Form/Heder.tsx';
-import FormFot from '../Form/Footer.tsx';
+import FormMin from './Main.tsx';
+import FormHed from './Heder.tsx';
+import FormFot from './Footer.tsx';
 
 export default function Form() {
   return (

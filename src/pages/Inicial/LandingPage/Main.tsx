@@ -40,7 +40,7 @@ function Main(props) {
            Milhões de músicas e podcasts para explorar. E nem precisa de cartão de   crédito.
            </b> 
        </p>
-      <a href="http://localhost:3000/Form/Form">
+      <a href="http://localhost:3000/Inicial/Form/Form">
        <button style={{
            height: '50px',
            width: '160px',
