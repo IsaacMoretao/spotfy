@@ -1,6 +1,6 @@
 import FormMin from './Main.tsx';
 import FormHed from './Heder.tsx';
-import FormFot from './Footer.tsx';
+
 
 export default function Form() {
   return (
@@ -8,7 +8,7 @@ export default function Form() {
 
        <FormHed></FormHed>
        <FormMin></FormMin>
-       <FormFot></FormFot>
+       
 
     </div>
   )

@@ -14,7 +14,6 @@ function LoginFooter(props) {
         marginLeft: '33%',
         marginRight: '33%',
         borderTop: '1px solid gray'
-
         }}>Não tem uma conta?
       </h4>
       <a href="http://localhost:3000/Inicial/Form/Form">

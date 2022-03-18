@@ -1,0 +1,55 @@
+.a{
+  display: flex;
+  margin-right: 10px;
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.a:hover{
+  color: greenyellow;
+}
+.But:hover * .a{
+  background-color: rgb(234, 0, 255);
+}
+
+.div{
+  margin-top: 30px;
+  font-size: 20px;
+  
+}
+.Hab{
+  width: 30px;
+  height: 4px;
+  margin: 4px;
+  background-color: rgba(255, 255, 255, 0.657);
+}
+.But{
+  background-color: rgba(255, 0, 0, 0);
+  border: 0ch;
+  padding: 0%;
+  cursor: pointer;
+}
+
+
+@media (max-width: 950px ) {
+  .But{
+    display: block;
+  }
+
+  .a{
+    flex-direction: column;
+    position: absolute;
+    top: 15vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(102%);
+    transition: 0.3s;
+    
+  }
+}
