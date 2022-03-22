@@ -19,8 +19,12 @@ function Opções() {
         marginBottom:  '30px',
         marginTop:  '20px'
       }} src="/image/SpotifyLogoBranco.png"/>
-
-      <section style={{
+     <a href="http://localhost:3000" style={{
+       display: 'flex',
+       color: 'white',
+       textDecoration: 'none'
+     }}>
+       <section style={{
         textAlign: 'center',
         height: '40px',
         marginLeft: '10px',
@@ -45,6 +49,8 @@ function Opções() {
           
         }}> <b>Home</b> </div>
       </section>
+     </a>
+      
 
       <section style={{
         textAlign: 'center',
@@ -85,6 +91,11 @@ function Opções() {
         cursor: 'pointer',
         
       }}>
+      <a href="http://localhost:3000/Principal/Pages/Pesquisar" style={{
+        display: 'flex',
+        color: 'white',
+        textDecoration: 'none'
+        }}>
         <div style={{
           marginRight: '5px',
           marginLeft: '10px',
@@ -100,8 +111,13 @@ function Opções() {
           width: '200px',
           fontSize: '15px',
           
-        }}> <b>Procurar</b> </div>
+        }}> <b>Procurar</b>
+        </div>
+      </a>
+
+
       </section>
+
       <section style={{
         display: 'flex',
         marginTop: '53vh',
