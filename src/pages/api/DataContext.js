@@ -2,7 +2,8 @@ import React from "react";
 
 export const data = {
   number: 123,
-  text: 'Context API...'
+  text: 'Context API...',
+  img: '/image/Music.png'
 }
 
 const DataContext = React.createContext(data)

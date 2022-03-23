@@ -51,6 +51,12 @@ function Opções() {
       </section>
      </a>
       
+     <a href="http://localhost:3000/Principal/Pages/Biblioteca" style={{
+          display: 'flex',
+          color: 'white',
+          textDecoration: 'none'
+          
+        }}>
 
       <section style={{
         textAlign: 'center',
@@ -79,6 +85,9 @@ function Opções() {
           
         }}> <b>Biblioteca</b> </div>
       </section>
+
+     </a>
+      
 
       <section style={{
         textAlign: 'center',

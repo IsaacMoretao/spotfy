@@ -45,11 +45,14 @@ function LogHed() {
       <a className={Style.a}
       href="http://localhost:3000/Inicial/Form/Form">Entrar</a>
       
-      <button  className={Style.But}>
+      <button  className={Style.But} style={{
+        display: 'none'
+      }}>
         <section className={Style.Hab}></section>
         <section  className={Style.Hab}></section>
         <section className={Style.Hab} style={{
-          marginBottom: '25px'
+          marginBottom: '25px',
+          
         }}></section>
       </button>
 

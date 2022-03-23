@@ -1,4 +1,3 @@
-
 interface EstiloProps {
   children: any
   

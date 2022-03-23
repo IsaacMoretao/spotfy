@@ -8,8 +8,9 @@ import Index from './Principal/Pages/index';
 export default function Home() {
   return (
     <div>
-
-     <Index/>
+     <LogHed/>
+     <Main/>
+     <Footer/>
 
     </div>
   )
