@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "src/pages/Inicial/LandingPage/header.tsx"  ],
+, "src/pages/Inicial/LandingPage/header.tsx", "src/pages/Principal/Components/Funk.tsx", "src/pages/Principal/Pages/Funk.jsx"  ],
   "exclude": [
     "node_modules"
   ]

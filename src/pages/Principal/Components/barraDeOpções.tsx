@@ -1,7 +1,21 @@
 import React from 'react';
+import Style from '../../../styles/Opcoes.module.css'
+
+
 
 function Opções() {
   
+  function mudarBlock(Alert){
+    if (Alert == Style.Alert){
+     Alert.style.display = "block";
+    }
+  
+  }
+
+  function mudarNone(alert){
+    alert.style.display = "none";
+   }
+
   return(
   
     <article style={{
@@ -96,7 +110,6 @@ function Opções() {
         marginRight: '10px',
         display: 'flex',
         marginTop: '15px',
-        borderBottom: '1px solid grey',
         cursor: 'pointer',
         
       }}>
@@ -123,13 +136,94 @@ function Opções() {
         }}> <b>Procurar</b>
         </div>
       </a>
+      </section>
+      <br />
 
-
+      <section style={{
+        textAlign: 'center',
+        height: '40px',
+        marginLeft: '10px',
+        marginRight: '10px',
+        display: 'flex',
+        marginTop: '15px',
+        cursor: 'pointer',
+        
+      }}>
+      <a href="http://localhost:3000/Principal/Pages/Pesquisar" style={{
+        display: 'flex',
+        color: 'white',
+        textDecoration: 'none'
+        }}>
+        <div style={{
+          marginRight: '5px',
+          marginLeft: '10px',
+          
+        }}
+        ><img src="/image/Plus.jpg"
+        style={{
+          height: '23px'
+        }}/></div>
+        <div style={{
+          height: '30px',
+          marginTop: '0px',
+          width: '200px',
+          fontSize: '15px',
+          
+        }}> <b>Nova playlist</b>
+        </div>
+      </a>
       </section>
 
       <section style={{
+        textAlign: 'center',
+        height: '40px',
+        marginLeft: '10px',
+        marginRight: '10px',
         display: 'flex',
-        marginTop: '53vh',
+        marginTop: '3px',
+        cursor: 'pointer',
+        borderBottom: '1px solid grey'
+        
+      }}>
+      <a href="http://localhost:3000/Principal/Pages/Pesquisar" style={{
+        display: 'flex',
+        color: 'white',
+        textDecoration: 'none'
+        }}>
+        <div style={{
+          marginRight: '5px',
+          marginLeft: '10px',
+          
+        }}
+        ><img src="/image/faveSong.png"
+        style={{
+          height: '23px'
+        }}/></div>
+        <div style={{
+          height: '30px',
+          marginTop: '0px',
+          width: '200px',
+          fontSize: '15px',
+          
+        }}> <b>Favoritos</b>
+        </div>
+      </a>
+      </section>
+
+       <section>
+        
+          <div className={Style.div}>
+           <option className={Style.option}>Favotitos</option>
+           <option className={Style.option}>Relax</option>
+           <option className={Style.option}>Playlist não nomeada</option>
+           <option className={Style.option}>Playlist não nomeada</option>
+           <option className={Style.option}>Playlist não nomeada</option>
+           <option className={Style.option}>Playlist não nomeada</option>
+          </div>
+       </section>
+        <section style={{
+        display: 'flex',
+        marginTop: '5%',
         textAlign: 'center',
         marginLeft: '10px',
         marginRight: '10px',
@@ -137,9 +231,9 @@ function Opções() {
         
         
       }}>
-        <section>
 
-        </section>
+        
+        
         <div style={{
             marginRight: '5px',
             marginLeft: '10px',
@@ -156,10 +250,45 @@ function Opções() {
         }}>
          <b>Instalar App</b> 
         </div>
-      </section >
-      
-    </article>
 
+        {/* === ↓ Criar Playlist ↓ ===*/}
+        <div id='Alert' className={Style.Alert}>
+          <header style={{
+            borderBottom: '1px solid grey',
+            height: '40px',
+            fontSize: '20px',
+            marginTop: '10px'
+          }}>
+             <b>Crie Sua Playlist</b>
+          </header>
+          <main>
+            <div style={{
+              marginTop: '10%',
+              marginBottom: '20%',
+              }}>
+              <label style={{textAlign: 'start'}}> <b>Imagem:</b> </label> <br />
+              <label className={Style.img} htmlFor="arquivo"> <b>Escolher imagem</b></label>
+              <input type="file" id='arquivo' style={{display: 'none'}}/>
+            </div>
+            <div>
+              <label className={Style.input}> <b>Nome:</b> </label>
+              <input className={Style.Input} type="text" />
+            </div>
+            <button className={Style.But}>Criar!</button>
+          </main>
+          <footer style={{
+            marginTop: '10%',
+            borderTop: '1px solid grey',
+            paddingTop: '5px'
+          }}>
+            &copy; Isaac Moretão
+          </footer>
+        </div>
+        {/* === ↑ Criar Playlist ↑ ===*/}
+      </section >
+
+    </article>
+ 
   ) 
 }
 export default Opções;
