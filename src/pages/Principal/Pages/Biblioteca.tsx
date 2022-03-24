@@ -1,5 +1,4 @@
 import Padrao from '../Components/Padrão';
-import Albuns from '../Components/Albuns'
 function Pendentes(props) {
 
   return(
@@ -61,7 +60,7 @@ function Pendentes(props) {
             <h4 style={{marginTop: '-10px'}}>Album Sem Nome</h4>
           </aside>
 
-          <aside  style={{
+           <aside  style={{
             height: '280px',
             width: '180px',
             background: 'linear-gradient(130deg, #1f1f1f 40%, #2e2e2e)',

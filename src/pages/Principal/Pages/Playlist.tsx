@@ -1,4 +1,5 @@
 import Padrao from '../Components/Padrão';
+import Albun from '../Components/Albuns';
 
 function Playlist(props) {
 
@@ -6,7 +7,7 @@ function Playlist(props) {
     
       <body style={{
         background: 'linear-gradient(#000000c7, #242424)',
-        height: '100vh',
+        height: '100%',
         color: 'white',
       }}>
         <Padrao/>
@@ -70,25 +71,14 @@ function Playlist(props) {
               <p>Nome:</p> <p></p> <p>Álbum:</p>
            </div>
          </aside>
-        <aside style={{display: 'flex', justifyContent: 'space-around'}}>
-          <p style={{
-          width: '50%',
-          marginLeft: '14%',
-          marginBottom: '5px'
-          
-          }}>
-          
-              <img src="/image/Relax.jpg"
-              style={{
-               height: '30px',
-              }}/> Name</p>
-            
-          <p style={{
-            width: '50%',
-            marginLeft: '38%'
-          }}>TXT</p> 
-        </aside>
-         
+        
+         <Albun Nome=''/>
+         <Albun/>
+         <Albun/>
+         <Albun/>
+         <Albun/>
+         <Albun/>
+         <Albun/>
 
        </main>
       
